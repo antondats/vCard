@@ -1,0 +1,12 @@
+X-Sender: vcard@example.com
+X-Receiver: messages@example.com
+MIME-Version: 1.0
+From: vcard@example.com
+To: messages@example.com
+Date: 4 Aug 2017 21:50:42 +0300
+Subject: New message send
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+TmV3IG1lc3NhZ2UhDQotLS0NCk5hbWU6DQphYWFhYWFhYWFhYWFhYWENCk1lc3NhZ2U6
+IA0KYmJiYmJiYmJiYmJiYg0KLS0tDQpFbWFpbDogDQpzc3Nzc3Nzcw0K

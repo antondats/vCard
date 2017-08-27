@@ -1,0 +1,26 @@
+﻿<nav class="fright">
+    <ul>
+        <li>@Html.RouteLink("Profile", new
+       {
+           controller = "Home",
+           action = "Profile"
+       })</li>
+        <li>@Html.RouteLink("Skills", new
+       {
+           controller = "Skills",
+           action = "List"
+       })</li>
+    </ul>
+    <ul>
+        <li>@Html.RouteLink("Portfolio", new
+       {
+           controller = "Portfolio",
+           action = "List"
+       })</li>
+        <li>@Html.RouteLink("Write me", new
+       {
+           controller = "Contact",
+           action = "Index"
+       })</li>
+    </ul>
+</nav>

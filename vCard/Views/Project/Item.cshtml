@@ -1,0 +1,31 @@
+﻿@using vCard.Models
+@model ItemInfo
+
+@{ 
+    ViewBag.Title = Model.Project.Title;
+}
+
+<aside class="grid col-one-quarter mq2-col-one-third mq3-col-full">
+    This blok is being diveloped
+</aside>
+
+<section class="grid col-three-quarters mq2-col-two-thirds mq3-col-full">
+    <h2>@Model.Project.Title</h2>
+    <p>@Model.Project.Description</p>
+   
+    
+
+    <div id="gallery">
+        <div id="panel">
+            <img id="largeImage" src="~/Content/Images/Projects/@Model.Project.Folder/@Model.Images[0]" />
+            <!--<div id="description">1st image description</div>-->
+        </div>
+        <div id="thumbs">
+            @foreach (string image in Model.Images)
+            {
+                <img src="~/Content/Images/Projects/@Model.Project.Folder/@image" alt="" class="others"/>
+            }
+        </div>
+    </div>    
+
+</section>
